@@ -4,7 +4,7 @@ Slides, code and docker images used with the CFML ORM presentation being given t
 ### Docker Information
 To follow along in this presentation :
  - clone this repository using GIT
- - use the 'docker compose up'  to download and run all the services to follow along.
+ - use the `docker compose up`  to download and run all the services to follow along.
    - Docker Compose will download the latest Lucee CFML engine, MySQL and expose port tcp/8500 (http)
 
 
