@@ -1,8 +1,7 @@
 <cfscript>
 
-    ormReload();
-    beachList = entityload("beaches");
-
+    ormReload();                               // this forces the ORM engine to reprocess all the CFCs
+    beachList = entityload("beaches");         // this is equivalent to a SELECT * FROM beaches
 
 </cfscript>
 
