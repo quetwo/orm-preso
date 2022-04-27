@@ -14,12 +14,20 @@
 <hr>
 <table width="25%" border="1">
     <tr>
-        <td><em>#address.getAddressName()#</em></td>
-        <td>#address.getAddressLine1()#</td>
+        <td><b><a href="editAddress.cfm?id=#customerRecord.getID()#&addressID=#address.getID()#"> #address.getAddressName()#</a></b></td>
+    </tr>
+    <tr>
+        <td>#address.getaddress1()#</td>
+    </tr>
+    <tr>
+        <td>#address.getaddress2()#</td>
+    </tr>
+    <tr>
+        <td>#address.getcity()#, #address.getSt()# #address.getZip()#</td>
     </tr>
 </table></cfoutput>
 </cfloop>
 
 <cfoutput><br>
-<a href="editAddress.cfm?id=#customerRecord.getID()#">[Add]</a>
+<a href="editAddress.cfm?id=#customerRecord.getID()#">[ Add ]</a> | <a href="index.cfm">[ Back ]</a>
 </cfoutput>
