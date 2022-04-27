@@ -24,11 +24,11 @@
     <cfloop array="#customerList#" index="customer">
         <cfoutput>
             <tr>
-                <td>#customer.getName()#</td>
+                <td><a href="editCustomer.cfm?id=#customer.getID()#">#customer.getName()#</a></td>
                 <td>#customer.getEmail()#</td>
                 <td>#customer.getActive()#</td>
                 <td>#customer.getComments()#</td>
-                <td>#len(customer.getAddresses())# Records.</td>
+                <td><a href="viewAdrresses.cfm?id=#customer.getID()#"> #len(customer.getAddresses())# Records.</a></td>
                 <td>
                     <cfloop array="#customer.getPhones()#" index="phone">
                         #phone.getPhoneNumber()# <br/>
