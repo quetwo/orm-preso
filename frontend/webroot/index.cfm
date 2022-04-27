@@ -17,6 +17,9 @@ If you didn't get an error message above, that means that your CFML and DB Engin
     <tr>
         <td><a href="02-crud\">02 - CRUD Examples</a></td>
     </tr>
+    <tr>
+        <td><a href="03-relationships\">03 - Relationships</a></td>
+    </tr>
 
 </table>
 
