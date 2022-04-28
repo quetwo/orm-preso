@@ -21,7 +21,7 @@
     newAddress.setZip(form.zip);
     entitySave(newAddress);
 
-    customer.addAddresses(newAddress);
+    customer.addAddress(newAddress);    // note the use of the singular name.
     entitySave(customer);
 
     writeDump(customer);
@@ -31,5 +31,5 @@
 Done.
 
     <cfoutput>
-<a href="viewAdrresses.cfm?id=#customer.getID()#">Back to Address List</a>
+<a href="viewAddresses.cfm?id=#customer.getID()#">Back to Address List</a>
     </cfoutput>
