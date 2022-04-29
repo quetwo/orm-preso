@@ -12,6 +12,15 @@ To follow along in this presentation :
      (via the frontend/secrets.txt) and change the passwords in each of the secret files.  Additionally, there is no XSS
      checking in any of the web forms or editors.
 
+### Non-Docker Information
+ - clone this repository using GIT
+ - Copy the `frontend/webroot/` directory into the CFML server of your choice.  It should work fine in a sub-directory
+ - Create a new database (schema) in the DB of your choice.  Well, maybe not an NoSQL server, but anything standard.
+ - Log into the Administrator for your CF Engine, create a new DSN and point it to that DB.
+ - Edit each of the `Application.cfc` files, and delete the `this.datasource` line and replace it with
+   - `this.datasource = "datasourcename";`    with datasourcename replaced with the datasource you just created.
+ - Loading the `index.cfm` file in the webroot should not give an error.  If it does, you will need to troubleshoot your engine setup to continue.
+
 ### Code used in examples
 All the code used in the presentation is available in the `frontend/webroot/` directory.  There are directories setup
 for each of the examples shown in the PPT.
