@@ -1,6 +1,6 @@
 
 <cfscript>
-    ormExecuteQuery("DELETE from exchangerates WHERE rateID > 0");
+    ormExecuteQuery("DELETE from exchangerates");
 </cfscript>
 
 <cfhttp url="https://api.coinbase.com/v2/exchange-rates">

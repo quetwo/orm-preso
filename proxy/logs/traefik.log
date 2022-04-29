@@ -1,0 +1,12 @@
+time="2022-04-20T01:58:16Z" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-04-20T01:58:16Z" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-04-20T01:58:16Z" level=error msg="close tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-04-20T01:58:16Z" level=error msg="close tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-04-24T02:18:42Z" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-04-24T02:18:42Z" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-04-24T02:18:42Z" level=error msg="close tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-04-24T02:18:42Z" level=error msg="close tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-04-27T03:38:48Z" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-04-27T03:38:48Z" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-04-27T03:38:48Z" level=error msg="close tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-04-27T03:38:48Z" level=error msg="close tcp [::]:80: use of closed network connection" entryPointName=web
