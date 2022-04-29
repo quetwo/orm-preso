@@ -2,14 +2,7 @@
 
 <cfscript>
 
-    if (url.id EQ -1)
-    {
-        myItem = entityNew("cfugs");
-    }
-    else
-    {
-        myItem = entityLoadByPK("cfugs", url.id);
-    }
+
 
 </cfscript>
 

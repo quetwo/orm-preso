@@ -21,13 +21,6 @@ component
         , validate:false // default: false
     };
 
-    // the following two lines are the 'magic' that turn on ORM for this application.
-    this.ormenabled = true;
-    this.ormsettings =
-    {
-        logsql: true,              // we want the engine to output the SQL commands it's running against our DB to the console
-        dbcreate: "update"         // we want to have the ORM to create the tables for us to match our CFCs
-    };
 
 
 }

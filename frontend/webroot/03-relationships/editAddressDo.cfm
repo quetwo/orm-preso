@@ -21,9 +21,6 @@
     newAddress.setZip(form.zip);
     entitySave(newAddress);
 
-    customer.addAddress(newAddress);    // note the use of the singular name.
-    entitySave(customer);
-
     writeDump(customer);
 
 </cfscript>

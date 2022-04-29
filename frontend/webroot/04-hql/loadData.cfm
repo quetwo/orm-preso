@@ -1,7 +1,5 @@
 
-<cfscript>
-    ormExecuteQuery("DELETE from exchangerates");
-</cfscript>
+
 
 <cfhttp url="https://api.coinbase.com/v2/exchange-rates">
 <cfset myCoinJSON = deserializeJSON(cfhttp.filecontent)>

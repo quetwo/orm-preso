@@ -7,7 +7,5 @@ component persistent="true" table="customer"
     property name="active" fieldtype="column" ormType="boolean";
     property name="comments" fieldtype="column" ormType="longtext";
 
-    property name="addresses" fieldtype="one-to-many" cfc="address" fkcolumn="customerID" type="array" singularname="address";
-    property name="phones" fieldtype="one-to-many" cfc="phone" fkcolumn="customerID" type="array" inverse="true";
 
 }

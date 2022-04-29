@@ -1,7 +1,6 @@
 <cfscript>
 
-    cfugItem = entityLoadByPK("cfugs",url.id);
-    entityDelete(cfugItem);
+
 
 </cfscript>
 

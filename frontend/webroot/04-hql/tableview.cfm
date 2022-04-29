@@ -1,9 +1,5 @@
 <cfparam name="url.offset" default="0" type="numeric">
-<cfset ormOptions = {maxResults=10, offset=url.offset}>
 
-<cfquery name="curList" dbtype="hql" ormOptions="#ormOptions#">
-    from exchangerates
-</cfquery>
 
 <table width="50%" border="1">
     <thead>
