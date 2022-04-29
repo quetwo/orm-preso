@@ -20,6 +20,9 @@ If you didn't get an error message above, that means that your CFML and DB Engin
     <tr>
         <td><a href="03-relationships\">03 - Relationships</a></td>
     </tr>
+    <tr>
+        <td><a href="04-hql\">04 - HQL</a></td>
+    </tr>
 
 </table>
 
